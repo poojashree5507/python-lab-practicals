@@ -1,0 +1,5 @@
+a=int(input("Enter a:"))
+b=int(input("Enter b:"))
+print("sum is",a+b)
+print("difference is",a-b)
+print("product is",a*b)
