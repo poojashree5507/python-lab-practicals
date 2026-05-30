@@ -1,0 +1,13 @@
+file = open("input.txt", "w")
+text = input("Enter the text: ")
+file.write(text)
+file.close()
+file = open("input.txt", "r")
+data = file.read()
+file.close()
+reverse_data = data[::-1]
+file = open("output.txt", "w")
+file.write(reverse_data)
+file.close()
+print("Original Text :", data)
+print("Reversed Text :", reverse_data)
